@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.roshanshibu.total.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingRight="60px">
+
+        <TextView
+            android:id="@+id/gt_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grand Total"
+            android:textAlignment="viewEnd"
+            android:textColor="#2d2d2d"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/gt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:text="₹0.000"
+            android:textAlignment="viewEnd"
+            android:textColor="#2d2d2d"
+            android:textSize="65dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp"
+        android:background="@drawable/roundedrectangle"
+        android:elevation="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/label2000"
+                    android:text="2000\t\t\t\t x"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count2000"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt2000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500\t\t\t\t\t x"
+                    android:id="@+id/label500"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count500"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200\t\t\t\t\t x"
+                    android:id="@+id/label200"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count200"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100\t\t\t\t\t\t x"
+                    android:id="@+id/label100"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count100"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50\t\t\t\t\t\t\t x"
+                    android:id="@+id/label50"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count50"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20\t\t\t\t\t\t\t x"
+                    android:id="@+id/label20"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count20"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10\t\t\t\t\t\t\t\t x"
+                    android:id="@+id/label10"
+                    android:textSize="27dp" />
+
+                <EditText
+                    android:id="@+id/count10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="27dp" />
+
+                <TextView
+                    android:id="@+id/gt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" = 0.0"
+                    android:textSize="27dp" />
+            </LinearLayout>
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily=""
+                android:paddingTop="25dp"
+                android:text="30 May, 2018"
+                android:textColor="#2d2d2d"
+                android:textSize="22sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom">
+
+                <RelativeLayout
+                    android:id="@+id/reset_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="15dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle">
+
+                    <TextView
+                        android:id="@+id/reset_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Clear"
+                        android:textSize="20dp"
+                        android:padding="10dp"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/screenshot_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="15dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/circle">
+
+                    <TextView
+                        android:id="@+id/screenshot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Save"
+                        android:textSize="20dp"
+                        android:padding="10dp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
